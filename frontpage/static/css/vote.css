@@ -1,0 +1,146 @@
+
+
+html{
+    border: 5px solid rgba(169, 169, 169, 0.521);
+    height: 100vh;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.votenav ul{ 
+    list-style-type: none;
+    padding: 0px;
+    margin: 100px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.votenav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block; 
+    text-align: center;
+}
+
+.votenav a:hover{
+    background-color: rgb(54, 54, 54);
+    text-decoration:underline ;
+}
+
+.votenave li{
+    float: left;
+}
+
+
+
+
+
+#container {
+    text-align: center; /* Center align the content */
+    margin: 20px;
+}
+
+.vote-button {
+    font-size: 70px; /* Increase font size for bigger buttons */
+    padding: 20px; /* Add padding for bigger clickable area */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.2s; /* Add a transition for scaling effect */
+}
+
+.vote-button:hover {
+    transform: scale(1.2); /* Scale up button on hover */
+}
+
+.vote-count {
+    font-size: 50px; /* Adjust font size for vote count */
+    margin-left: 10px; /* Space between button and count */
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+h1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: rgb(95, 95, 95);
+}
+
+
+
+
+
+/* vote.css */
+
+/* Mobile view (up to 767px) */
+@media (max-width: 767px) {
+    #container {
+        width: 100%; /* Ensure container is full-width */
+        padding: 10px; /* Adequate padding */
+    }
+    .box, .vote-button {
+        font-size: 1.2em; /* Adjust font size for readability */
+        margin: 5px 0; /* Reduce margin to avoid cut-off */
+    }
+    .vote-count {
+        font-size: 1em; /* Ensure vote counts are readable */
+    }
+}
+
+/* Mobile view (up to 375px) */
+@media (max-width: 375px) {
+    .votenav ul {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+        padding: 0;
+        margin: 0;
+    }
+    .votenav li {
+        margin: 5px 0; /* Adjust spacing */
+    }
+    .votenav a {
+        font-size: 0.9em; /* Smaller font for better fit */
+        padding: 10px;
+    }
+}
+
+
+
+
+/* Tablet view (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #container {
+        /* Tablet-specific styles */
+    }
+    .vote-button {
+        /* Tablet-specific styles */
+    }
+}
+
+/* Desktop view (992px and above) */
+@media (min-width: 992px) {
+    #container {
+        /* Desktop-specific styles */
+    }
+    .vote-button {
+        /* Desktop-specific styles */
+    }
+}
