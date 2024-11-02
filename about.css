@@ -1,0 +1,145 @@
+
+body{
+    background-color: black;
+    color: rgb(165, 165, 165);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.indenttitle {
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.indent{
+    padding: 20px; 
+    margin: 15px;
+}
+
+.indent p{
+    text-indent: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+.aboutnav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.aboutnav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block; 
+    text-align: center;
+}
+
+.aboutnav a:hover{
+    background-color: rgb(54, 54, 54);
+    text-decoration:underline ;
+}
+
+.aboutnav li{
+    float: left;
+}
+
+.comment{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 30px 10px;
+}
+
+
+
+
+
+
+.footernav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.footernav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    justify-content: space-around; /* space-between, or space-evenly for different layouts */
+    align-items: center; 
+}
+
+.footernav a { 
+    text-decoration: none;
+    color: white;
+}
+
+.footernav a:hover{
+    background-color: gray;
+    text-decoration: underline;
+}
+
+.footernav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.footernav ul{
+    list-style-type: none;
+    padding: 50px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footernav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block; 
+    text-align: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.footernav a:hover{
+    background-color: rgb(54, 54, 54);
+    text-decoration:underline ;
+}
+
+.footernav li{
+    float: left;
+}*/
+
+
+
+
+
+
+
+
